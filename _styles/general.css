@@ -1,0 +1,985 @@
+/*  *************************  */
+/*  Digital Source Labs, 2014  */
+/*  version 1.0, Jun 20, 2014  */
+/*  *************************  */
+
+
+
+/*  =====  imports  =====  */
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css");
+
+/*  graph  */
+@import url("../css/config.css");
+@import url("../css/main.css");
+@import url("../css/mobile.css");
+@import url("../css/tablet.css");
+
+
+/*  sytle  */
+body {
+	background-color: #1687cb;
+}
+
+#bodyContent {
+    background-color: #fff;
+    background-image: url(../_images/general/mainbk.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    margin-top: -20px;
+}
+
+.navbar-nav>li>a {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  text-align: left;
+ }
+
+.navbar-nav>li:nth-child(4),
+.navbar-nav>li:nth-child(5),
+.navbar-nav>li:nth-child(6),
+.navbar-nav>li:nth-child(7),
+.navbar-nav>li:nth-child(8),
+.navbar-nav>li:nth-child(9) {
+  padding-left: 50px;
+ }
+
+.navbar-nav>li:hover {
+  background: #1c87c8;
+  font-weight: 700;
+}
+
+.navbar-collapse {
+  max-height: 506px;
+}
+/*
+================================================================================
+                GENERAL
+================================================================================
+*/
+
+.cell-center {
+    text-align: center !important;
+}
+
+section { margin: 80px 0; }
+section:after {
+content: '';
+width: 100%;
+margin: 0 auto;
+position: relative;
+z-index: 100;
+height: 1px;
+background-color: #999;
+bottom: -34px;
+display: block;
+}
+/*
+================================================================================
+								HEADER
+================================================================================
+*/
+header {
+	background-color: #1a1a1a;
+  background-image: url(../_images/general/logobk01.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+header .container {
+  padding: 20px 10px !important;
+}
+
+.language a:link, .language a:visited, .language a:active {
+  padding: 5px;
+  font-family: 'NewsGothicBT-RomanCondensed';
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.language a:hover {
+  text-decoration: none;
+  color: #1e82c3;
+}
+
+
+/*
+================================================================================
+                MAIN MENU
+================================================================================
+*/
+nav {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#mainMenu {
+  padding: 10px 0 18px 0;
+  background-color: #fff;
+}
+
+#mainMenu > ul,
+#mainMenu > ul li,
+#mainMenu > ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#mainMenu > ul {
+  position: relative;
+  z-index: 597;
+}
+#mainMenu > ul li {
+	display: inline-block;
+	min-height: 1px;
+	line-height: 1.3em;
+	vertical-align: middle;
+	padding: 0 6px;
+  padding-bottom: 18px;
+}
+
+#mainMenu > ul li:last-child {
+	padding-right: 0;
+	border-right: none;
+}
+
+#mainMenu > ul li.hover,
+#mainMenu > ul li:hover {
+  z-index: 599;
+  cursor: default;
+}
+#mainMenu > ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  z-index: 598;
+}
+#mainMenu > ul ul li {
+  float: none;
+}
+#mainMenu > ul li:hover > ul {
+  visibility: visible;
+}
+/* Align last drop down RTL */
+/* Theme Styles */
+#mainMenu > ul a:link {
+  text-decoration: none;
+}
+#mainMenu > ul a:active {
+  color: #ffa500;
+}
+#mainMenu li {
+  padding: 0;
+  color: #000;
+}
+#mainMenu {
+  font-family: 'NewsGothicBT-RomanCondensed';
+  width: auto;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#mainMenu > ul li span {
+  font-family: 'NewsGothicBT-RomanCondensed';
+  width: auto;
+  font-size: 12px;
+  color: #333;
+}
+#mainMenu >ul li ul li span {
+  color: #fff;
+}
+#mainMenu > ul {
+  display: block;
+  float: none;
+  zoom: 1;
+}
+#mainMenu > ul:before {
+  content: '';
+  display: block;
+}
+#mainMenu > ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#mainMenu > ul > li > a,
+#mainMenu > ul > li > a:link,
+#mainMenu > ul > li > a:visited {
+  color: #000;
+  display: block;
+}
+#mainMenu > ul > li > a:hover,
+#mainMenu > ul > li:hover > a {
+	color: #1e82c3;
+}
+#mainMenu li li a {
+  color: #fff;
+  font-size: 12px;
+}
+#mainMenu li li a:hover {
+  color: #7cbc3c;
+  border-color: #fff;
+}
+#mainMenu ul ul {
+  padding: 0 10px;
+  background: #1e82c3;
+  border-radius: 7px;
+  margin: 0 auto;
+  width: 84%;
+  border-top: none;
+  left: 0;
+  right: 0;
+  
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+#mainMenu ul ul:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent #1e81c3 transparent;
+  position: absolute;
+  left: 56%;
+  top: -10px;
+}
+
+#mainMenu ul > li > ul > li {
+  padding: 0;
+}
+#mainMenu ul > li > ul > li > a {
+	padding: 10px 10px;
+  display: block;
+}
+#mainMenu ul > li > ul > li.has-sub > a:before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  right: 6px;
+  border: 5px solid transparent;
+  border-top: 5px solid #fff;
+}
+#mainMenu ul > li > ul > li.has-sub > a:hover:before {
+  border-top: 5px solid #fff;
+}
+
+
+
+
+/*
+================================================================================
+								FOOTER
+================================================================================
+*/
+footer {
+	background-color: #1687cb;
+	color: #fff;
+	font-size: 8px;
+	padding: 18px 0 12px 0;
+	margin: 0 !important;
+	border: 0!important;
+}
+
+footer p {
+	text-align: right;
+}
+
+footer ul {
+	text-align: center;
+	padding: 0 !important;
+}
+
+footer ul li a {
+	color: #fff;
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+
+footer ul li a:hover {
+	color: #7cbc3c;
+	text-decoration: none;
+}
+
+footer ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 20px;
+	border-right: 1px #fff solid;
+}
+
+footer ul li:first-child {
+	padding-left: 0;
+}
+
+footer ul li:last-child {
+	padding-right: 0;
+	border-right: none;
+}
+
+
+
+/*
+================================================================================
+								FONTS
+================================================================================
+*/
+@font-face {
+	font-family: 'NewsGothicBT-RomanCondensed';
+	src: url('fonts/NEWSGOTN.TTF');
+}
+
+
+
+/*
+================================================================================
+								CAROUSEL
+================================================================================
+*/
+
+#arrowPositionLeft {
+    float: left;
+    position: relative;
+    bottom: 160px;
+    left: 120px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../_images/mainCarousel/arrow_left.png) bottom;
+    text-indent: -99999px;
+}
+
+#arrowPositionLeft:hover {
+    background-position: 0 0;
+}
+
+#arrowPositionRight {
+    position: relative;
+    float: right;
+    bottom: 160px;
+    right: 120px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../_images/mainCarousel/arrow_right.png) bottom;
+    text-indent: -99999px;
+}
+
+#arrowPositionRight:hover {
+    background-position: 0 0;
+}
+
+
+
+/*
+================================================================================
+                  SECCIONES
+================================================================================
+*/
+
+#presentacionHome {
+    background-image: url(../_images/home/presentacion-xs.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 294px;
+    padding-top: 20px;
+    margin-left: -15px;
+}
+
+#downloadHome .visible-xs {
+     margin-left: -15px;
+}
+
+@media (max-width: 768px) {
+    #downloadHome {
+        background-image: url(../_images/home/descarga-xs.png);
+        /*padding: 0 0;*/
+    }
+}
+
+.readMoreP:link, .readMoreP:active, .readMoreP:visited, .readMoreP:hover {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  color: #1c87c8;
+  text-align: right;
+  float: right;
+  text-decoration: underline;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+
+/*  telefonía fija  */
+.fija_h1 {
+    color: #FAA94B;
+}
+
+.fija_tabla {
+    width: 100%;
+    font-family: 'NewsGothicBT-RomanCondensed';
+}
+
+.fija_tabla table,
+.fija_tabla th,
+.fija_tabla td {
+    border: 2px #FAA94B solid;
+}
+
+.fija_tabla th {
+    background-color: #FAA94B;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.fija_tabla th {
+    border: 1px #fff solid;
+}
+
+.fija_tabla td {
+    color: #000;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-align: right;
+}
+
+.fija_tabla tr:nth-child(even) {
+  background-color: #f1f1f2;
+}
+
+
+.fija_tabla tr:nth-child(odd) {
+  background-color: white;
+}
+
+.fija_bold {
+    color: #FAA94B;
+}
+.fija_sub {
+    color: #FAA94B;
+}
+
+/*  telefonía movil  */
+.movil_h1 {
+  color: #a066aa;
+}
+
+.movil_table {
+    width: 100%;
+    font-family: 'NewsGothicBT-RomanCondensed';
+}
+
+.movil_table th {
+    border: 1px #fff solid;
+}
+
+.movil_table table,
+.movil_table td {
+    border: 1px #a066aa solid;
+}
+
+.movil_table th {
+    background-color: #a066aa;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.movil_table td {
+    color: #211f20;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-align: right;
+}
+
+.movil_table tr:nth-child(odd) {
+  background-color: #f1f1f2;
+}
+
+
+.movil_table tr:nth-child(even) {
+  background-color: white;
+}
+
+.movil_row_total {
+    background-color: #e0d1e7 !important;
+    font-weight: bold;
+}
+
+.movil_row_total > td {
+    color: #000;
+}
+
+.movil_bold {
+    color: #a066aa;
+}
+.movil_sub {
+    color: #a066aa;
+}
+
+/*  accesos a internet  */
+.internet_h1 {
+  color: #ef4b73;
+}
+
+.internet_table {
+    width: 100%;
+    font-family: 'NewsGothicBT-RomanCondensed';
+}
+
+.internet_table th {
+    border: 1px #fff solid;
+}
+
+.internet_table table,
+.internet_table td {
+    border: 1px #ef4b73 solid;
+}
+
+.internet_table th {
+    background-color: #ef4b73;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.internet_table td {
+    color: #211f20;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-align: right;
+}
+
+.internet_table tr:nth-child(odd) {
+  background-color: #f1f1f2;
+}
+
+
+.internet_table tr:nth-child(even) {
+  background-color: white;
+}
+
+.internet_row_total {
+    background-color: #fbd1d2 !important;
+    font-weight: bold;
+}
+
+.internet_row_total > td {
+    color: #000;
+}
+
+.internet_bold {
+    color: #ef4b73;
+}
+.internet_sub {
+    color: #ef4b73;
+}
+
+/*  lineas arrendadas  */
+.arrendadas_h1 {
+    color: #5b6ab1;
+}
+
+.arrendadas_table {
+    width: 100%;
+    font-family: 'NewsGothicBT-RomanCondensed';
+}
+
+.arrendadas_table th {
+    border: 1px #fff solid;
+}
+
+.arrendadas_table table,
+.arrendadas_table td {
+    border: 1px #5b6ab1 solid;
+}
+
+.arrendadas_table th {
+    background-color: #5b6ab1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.arrendadas_table td {
+    color: #211f20;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-align: right;
+}
+
+.arrendadas_table tr:nth-child(odd) {
+  background-color: #f1f1f2;
+}
+
+
+.arrendadas_table tr:nth-child(even) {
+  background-color: white;
+}
+
+.arrendadas_row_total {
+    background-color: #cccee8 !important;
+    font-weight: bold;
+}
+
+.arrendadas_row_total > td {
+    color: #000;
+}
+
+.arrendadas_bold {
+    color: #5b6ab1;
+}
+.arrendadas_sub {
+    color: #5b6ab1;
+}
+
+/*  television por suscripcion  */
+.tv_h1 {
+  color: #7cc24d;
+}
+.tv_table {
+    width: 100%;
+    font-family: 'NewsGothicBT-RomanCondensed';
+}
+
+.tv_table th {
+    border: 1px #fff solid;
+}
+
+.tv_table table,
+.tv_table td {
+    border: 1px #7cc24d solid;
+}
+
+.tv_table th {
+    background-color: #7cc24d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tv_table td {
+    color: #211f20;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-align: right;
+}
+
+.tv_table tr:nth-child(odd) {
+  background-color: #f1f1f2;
+}
+
+
+.tv_table tr:nth-child(even) {
+  background-color: white;
+}
+
+.tv_row_total {
+    background-color: #cccee8 !important;
+    font-weight: bold;
+}
+
+.tv_row_total > td {
+    color: #000;
+}
+
+.tv_bold {
+    color: #7cc24d;
+}
+.tv_sub {
+    color: #7cc24d;
+}
+
+.tv_destacada {
+    background-color: #7cc24d !important;
+    font-weight: bold;
+}
+
+.tv_destacada > td {
+    color: #fff;
+}
+
+/*   precios  */
+.precios_h1 {
+    color: #00b6bc;
+}
+
+.precios_li {
+    color: #231f20;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.precios_sub {
+    color: #00b6bc;
+}
+
+.precios_tabla {
+    width: 100%;
+    font-family: 'NewsGothicBT-RomanCondensed';
+}
+
+.precios_tabla table,
+.precios_tabla th,
+.precios_tabla td {
+    border: 2px #00b6bc solid;
+}
+
+.precios_tabla th {
+    background-color: #00b6bc;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.precios_tabla td {
+    color: #000;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-align: right;
+}
+
+.precios_tabla tr:nth-child(even) {
+  background-color: #f1f1f2;
+}
+
+
+.precios_tabla tr:nth-child(odd) {
+  background-color: white;
+}
+
+.precios_bold {
+    color: #00b6bc;
+}
+
+/*  evolucion  */
+.evolucion_h1 {
+    color: #1d76c1;
+}
+
+.evolucion_h2 {
+    color: #1d76c1;
+}
+
+.evolucion_h3 {
+    color: #000;
+}
+
+.evolucion_tabla {
+    width: 100%;
+    font-family: 'NewsGothicBT-RomanCondensed';
+}
+
+.evolucion_tabla table,
+.evolucion_tabla th,
+.evolucion_tabla td {
+    border: 2px #1d76c1 solid;
+}
+
+.evolucion_tabla th {
+    background-color: #1d76c1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.evolucion_tabla th {
+    border: 1px #fff solid;
+}
+
+.evolucion_tabla td {
+    color: #000;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-align: right;
+}
+
+.evolucion_tabla tr:nth-child(even) {
+  background-color: #f1f1f2;
+}
+
+
+.evolucion_tabla tr:nth-child(odd) {
+  background-color: white;
+}
+
+.evolucion_bold {
+    color: #1d76c1;
+}
+.evolucion_sub {
+    color: #1d76c1;
+}
+
+.evolucion_destacado {
+    font-weight: bold;
+    color: #000;
+    background-color: #a9c5e7;
+}
+
+.presentacion_h1 {
+    color: #034692;
+}
+
+/*  metodologia  */
+.metodologia_table {
+    width: 100%;
+    font-family: 'NewsGothicBT-RomanCondensed';
+}
+
+.metodologia_table table,
+.metodologia_table th,
+.metodologia_table td {
+    border: 2px #034693 solid;
+}
+
+.metodologia_table th {
+    background-color: #034693;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.metodologia_table td {
+    color: #211f20;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-align: left;
+}
+
+.metodologia_table tr:nth-child(odd) {
+  background-color: #f1f1f2;
+}
+
+
+.metodologia_table tr:nth-child(even) {
+  background-color: white;
+}
+
+.metodologia_row_total {
+    background-color: #929bc9 !important;
+}
+
+.metodologia_row_total > td {
+    color: #fff;
+}
+
+.metodologia_h1 {
+    color: #034694;
+}
+
+.metodologia_h2 {
+    color: #034694;
+}
+
+.metodologia_h3 {
+    color: #034694;
+}
+
+.metodologia_li {
+    color: #231f20;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.metodologia_ref {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+}
+
+.metodologia_bold {
+    color: #034694;
+}
+
+
+
+/******  BOLD  ******/
+.evolucion_bold, .fija_bold, .movil_bold,
+.internet_bold, .arrendadas_bold, .tv_bold,
+.precios_bold, .metodologia_bold {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/******  SUB  ******/
+.evolucion_sub, .fija_sub, .movil_sub,
+.internet_sub, .arrendadas_sub, .tv_sub,
+.precios_sub, .metodologia_sub {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/******  P  ******/
+.evolucion_p, .fija_p, .movil_p,
+.internet_p, .arrendadas_p, .tv_p,
+.precios_p, .metodologia_p, .presentacion_p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    color: #231f20;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/******  H1  ******/
+.evolucion_h1, .fija_h1, .movil_h1,
+.internet_h1, .arrendadas_h1, .tv_h1,
+.precios_h1, .metodologia_h1, .presentacion_h1 {
+    font-family: 'NewsGothicBT-RomanCondensed';
+    font-size: 27px;
+    padding-top: 20px;
+}
+
+/******  H2  ******/
+.evolucion_h2, .fija_h2, .movil_h2,
+.internet_h2, .arrendadas_h2, .tv_h2,
+.precios_h2, .metodologia_h2, .presentacion_h2 {
+    font-family: 'NewsGothicBT-RomanCondensed';
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+/******  H3  ******/
+.evolucion_h3, .fija_h3, .movil_h3,
+.internet_h3, .arrendadas_h3, .tv_h3,
+.precios_h3, .metodologia_h3, .presentacion_h3 {
+    font-family: 'NewsGothicBT-RomanCondensed';
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
+
+

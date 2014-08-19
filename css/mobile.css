@@ -1,0 +1,957 @@
+/* ==========================================================================
+   Mobile CSS
+   ========================================================================== */
+
+/*320px*/
+@media screen and (max-width: 320px) {
+/*Dynamic IDs*/
+	#dynamic_Landline_Active_Available_Lines_Combo_Chart, 
+	#dynamic_Landline_Traffic_Combo_Chart, #dynamic_Landline_VoIP_Line_Chart, 
+	#dynamic_Landline_Income_VoIP_2011_2013_Combo_Chart, 
+	#dynamic_Landline_Traffic_VoIP_2010_2013_Combo_Chart, 
+	#dynamic_International_Average_Per_Capita_Line_Chart,
+	#dynamic_Mobile_Active_Subscriptions_Mobile_Services_Combo_Chart,
+	#dynamic_Mobile_Traffic_Mobile_Voice_Combo_Chart,
+	#dynamic_Prices_And_Rates_Asimetric_Internet_Rates_Column_Chart,
+	#dynamic_Leasing_Lines_Connections_Leasing_Lines_2010_2013_Stacked_Column_Chart {
+	    top: 10px;
+	    margin-left: 10px;
+	} 
+	.content, .content_dynamic {
+		width: 320px;
+	}
+	 .content_dynamic > div {
+		width: 320px;
+	}
+	
+	.controlsContainer {
+/*		margin: 30px 0 0 57px;
+		padding: 30px 40px;*/
+    	width: 70%;
+	}
+	.content_dynamic > div { 
+		height: 780px;
+	}
+	#content_dynamic_2 > div {
+		height: 810px !important;
+	}
+
+	/*Static IDs NO TABLE CHARTS*/
+	#static_Landline_VoIP_Subscriptions_2013_Pie_Chart, 
+	#static_Landline_Total_Income_Combo_Chart, 
+	#static_General_Labor_Force_Telecommunications_Line_Chart, 
+	#static_General_Telecommunications_PIB_2010_2013_Column_Chart, 
+	#static_General_Telecommunications_Income_2011_2013_Combo_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_2011_2013_Stacked_Column_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_Line_Chart, 
+	#static_Internet_Access_Monthly_Average_Data_Traffic_Per_Subscription_2013_Column_Chart, 
+	#static_Internet_Access_Total_Income_Internet_Service_Column_Chart, 
+	#static_Internet_Access_Proportion_Relative_Income_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Persons_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Houses_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_Column_Chart, 
+	#static_Internet_Access_Proportions_Service_Access_Internet_Mobile_Payment_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_100_Persons_2010_2013_Column_Chart, 
+	#static_Internet_Access_Monthly_Income_Subscription_Service_Access_Internet_Column_Chart, 
+	#static_Internet_Access_Total_Traffic_Data_Technology_2013_Combo_Chart, 
+	#static_Internet_Access_Relative_Participation_Traffic_Data_Access_Technology_2013_Column_Stacked_Chart, 
+	#static_Internet_Access_Traffic_Monthly_Average_Data_Subscription_Column_Chart,
+	#static_TV_Subscriptions_Proportion_Subscription_Service_Television_Paid_Technlogy_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Subscriptions_Service_Television_Paid_Subscription_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Houses_Access_Television_Subscription_2010_2013_Column_Chart,
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart, 
+	#static_International_CostaRican_Mobile_Subscriptions_Bar_Chart, 
+	#static_International_Internet_Access_100_Bar_Chart, 
+	#static_International_LandLine_100_Bar_Chart, 
+	#static_International_MobileInternet_100_Bar_Chart, 
+	#static_International_TotalIncome_Telecommunications_PIB_100_Bar_Chart, 
+	#static_International_Percent_Subscriptions_Mobile_Postpaid_Prepaid_Stacked_Bar_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Simetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Corporative_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_Corporative_Line_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Mobile_Postpaid_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Big_Companies_Line_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Companies_Column_Chart,
+	#static_Mobile_Subscriptions_per_100_Column_Chart,
+	#static_Mobile_Subscriptions_per_Operator_3D_Pie_Chart,
+	#static_Mobile_Traffic_Voice_per_Subscriptions_Column_Chart,
+	#static_Mobile_Entry_Total_Mobile_Service_Line_Chart,
+	#static_Mobile_Entry_Associated_Mobile_Service_per_Component_Stacked_Column_Chart,
+	#static_Mobile_Entry_Payment_Method_Line_Chart,
+	#static_Mobile_Entry_per_Subscription_Mobile_Service_Column_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Operator_2013_Pie_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Service_Benefit_2013_Column_Chart,
+	#static_Leasing_Lines_Total_Income_Connection_Leasing_Lines_2010_2013_Column_Chart,
+	#static_Leasing_Lines_Income_Proportion_Connection_Service_Leasing_Lines_2013_Column_Chart {
+		width: 300px;
+		margin-left: 15px;
+		top: 10px;
+	}
+	/*Static IDs TABLE CHARTS*/
+	#static_General_CostaRican_Telecommunications_Table_Chart, 
+	#static_TV_Subscriptions_Service_TV_Paid_Technology_Access_Table_Chart  {
+		width: 318px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart {
+		width: 375px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	.content > p, .content_dynamic > p {
+		margin: 0 20px 0 20px;
+	}
+	.orangeTextLandline > span, .blueTextGeneral > span, .greenPinkText > span, .pinkTextInternetAccess > span, 
+	.turquoiseTextPricesAndRates > span, .greenTVSubscriptions > span, .purpleTextMobile > span, .purpleTextLeasingLines > span {
+	    font: 8px/10px Tahoma, Geneva, sans-serif !important;
+	}
+	.orangeTextLandline, .blueTextGeneral, .pinkTextInternetAccess, .greenPinkTextInternational, .greenPinkText, 
+	.turquoiseTextPricesAndRates, .greenTVSubscriptions, .purpleTextMobile, .purpleTextLeasingLines {
+		height: 50px !important;
+		font: 10px/12px Tahoma, Geneva, sans-serif !important;
+	}
+	.hide {
+		display: none;
+	}
+	.footnoteBottomCharts {
+		margin-top: 10px !important;
+	}
+	.tablePBottom {
+		margin: 35px !important;
+	}
+	.mobileMarginTop {
+		margin-top: 20px;
+	}
+} 
+
+
+
+
+/*Nexus 4*/
+@media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) {
+	/*Dynamic IDs*/
+	#dynamic_Landline_Active_Available_Lines_Combo_Chart, 
+	#dynamic_Landline_Traffic_Combo_Chart, #dynamic_Landline_VoIP_Line_Chart, 
+	#dynamic_Landline_Income_VoIP_2011_2013_Combo_Chart, 
+	#dynamic_Landline_Traffic_VoIP_2010_2013_Combo_Chart, 
+	#dynamic_International_Average_Per_Capita_Line_Chart,
+	#dynamic_Mobile_Active_Subscriptions_Mobile_Services_Combo_Chart,
+	#dynamic_Mobile_Traffic_Mobile_Voice_Combo_Chart,
+	#dynamic_Prices_And_Rates_Asimetric_Internet_Rates_Column_Chart,
+	#dynamic_Leasing_Lines_Connections_Leasing_Lines_2010_2013_Stacked_Column_Chart {
+	    top: 10px;
+	    margin-left: 10px;
+	} 
+	.content, .content_dynamic {
+		width: 320px;
+	}
+	 .content_dynamic > div {
+		width: 320px;
+	}
+	
+	.controlsContainer {
+/*		margin: 30px 0 0 57px;
+		padding: 30px 40px;*/
+    	width: 70%;
+	}
+	.content_dynamic > div { 
+		height: 780px;
+	}
+	#content_dynamic_2 > div {
+		height: 810px !important;
+	}
+	/*Static IDs NO TABLE CHARTS*/
+	#static_Landline_VoIP_Subscriptions_2013_Pie_Chart, 
+	#static_Landline_Total_Income_Combo_Chart, 
+	#static_General_Labor_Force_Telecommunications_Line_Chart, 
+	#static_General_Telecommunications_PIB_2010_2013_Column_Chart, 
+	#static_General_Telecommunications_Income_2011_2013_Combo_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_2011_2013_Stacked_Column_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_Line_Chart, 
+	#static_Internet_Access_Monthly_Average_Data_Traffic_Per_Subscription_2013_Column_Chart, 
+	#static_Internet_Access_Total_Income_Internet_Service_Column_Chart, 
+	#static_Internet_Access_Proportion_Relative_Income_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Persons_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Houses_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_Column_Chart, 
+	#static_Internet_Access_Proportions_Service_Access_Internet_Mobile_Payment_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_100_Persons_2010_2013_Column_Chart, 
+	#static_Internet_Access_Monthly_Income_Subscription_Service_Access_Internet_Column_Chart, 
+	#static_Internet_Access_Total_Traffic_Data_Technology_2013_Combo_Chart, 
+	#static_Internet_Access_Relative_Participation_Traffic_Data_Access_Technology_2013_Column_Stacked_Chart, 
+	#static_Internet_Access_Traffic_Monthly_Average_Data_Subscription_Column_Chart,
+	#static_TV_Subscriptions_Proportion_Subscription_Service_Television_Paid_Technlogy_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Subscriptions_Service_Television_Paid_Subscription_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Houses_Access_Television_Subscription_2010_2013_Column_Chart,
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart, 
+	#static_International_CostaRican_Mobile_Subscriptions_Bar_Chart, 
+	#static_International_Internet_Access_100_Bar_Chart, 
+	#static_International_LandLine_100_Bar_Chart, 
+	#static_International_MobileInternet_100_Bar_Chart, 
+	#static_International_TotalIncome_Telecommunications_PIB_100_Bar_Chart, 
+	#static_International_Percent_Subscriptions_Mobile_Postpaid_Prepaid_Stacked_Bar_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Simetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Corporative_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_Corporative_Line_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Mobile_Postpaid_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Big_Companies_Line_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Companies_Column_Chart,
+	#static_Mobile_Subscriptions_per_100_Column_Chart,
+	#static_Mobile_Subscriptions_per_Operator_3D_Pie_Chart,
+	#static_Mobile_Traffic_Voice_per_Subscriptions_Column_Chart,
+	#static_Mobile_Entry_Total_Mobile_Service_Line_Chart,
+	#static_Mobile_Entry_Associated_Mobile_Service_per_Component_Stacked_Column_Chart,
+	#static_Mobile_Entry_Payment_Method_Line_Chart,
+	#static_Mobile_Entry_per_Subscription_Mobile_Service_Column_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Operator_2013_Pie_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Service_Benefit_2013_Column_Chart,
+	#static_Leasing_Lines_Total_Income_Connection_Leasing_Lines_2010_2013_Column_Chart,
+	#static_Leasing_Lines_Income_Proportion_Connection_Service_Leasing_Lines_2013_Column_Chart {
+		width: 300px;
+		margin-left: 15px;
+		top: 10px;
+	}
+	/*Static IDs TABLE CHARTS*/
+	#static_General_CostaRican_Telecommunications_Table_Chart, 
+	#static_TV_Subscriptions_Service_TV_Paid_Technology_Access_Table_Chart  {
+		width: 318px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart {
+		width: 375px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	.content > p, .content_dynamic > p {
+		margin: 0 20px 0 20px;
+	}
+	.orangeTextLandline > span, .blueTextGeneral > span, .greenPinkText > span, .pinkTextInternetAccess > span, 
+	.turquoiseTextPricesAndRates > span, .greenTVSubscriptions > span, .purpleTextMobile > span, .purpleTextLeasingLines > span {
+	    font: 8px/10px Tahoma, Geneva, sans-serif !important;
+	}
+	.orangeTextLandline, .blueTextGeneral, .pinkTextInternetAccess, .greenPinkTextInternational, .greenPinkText, 
+	.turquoiseTextPricesAndRates, .greenTVSubscriptions, .purpleTextMobile, .purpleTextLeasingLines {
+		height: 50px !important;
+		font: 10px/12px Tahoma, Geneva, sans-serif !important;
+	}
+	.hide {
+		display: none;
+	}
+	.footnoteBottomCharts {
+		margin-top: 10px !important;
+	}
+	.tablePBottom {
+		margin: 35px !important;
+	}
+	.mobileMarginTop {
+		margin-top: 20px;
+	}
+} 
+
+/*Samsung S2*/
+@media screen and (device-width: 320px) and (device-height: 533px) and (-webkit-device-pixel-ratio: 1.5) {
+/*Dynamic IDs*/
+	#dynamic_Landline_Active_Available_Lines_Combo_Chart, 
+	#dynamic_Landline_Traffic_Combo_Chart, #dynamic_Landline_VoIP_Line_Chart, 
+	#dynamic_Landline_Income_VoIP_2011_2013_Combo_Chart, 
+	#dynamic_Landline_Traffic_VoIP_2010_2013_Combo_Chart, 
+	#dynamic_International_Average_Per_Capita_Line_Chart,
+	#dynamic_Mobile_Active_Subscriptions_Mobile_Services_Combo_Chart,
+	#dynamic_Mobile_Traffic_Mobile_Voice_Combo_Chart,
+	#dynamic_Prices_And_Rates_Asimetric_Internet_Rates_Column_Chart,
+	#dynamic_Leasing_Lines_Connections_Leasing_Lines_2010_2013_Stacked_Column_Chart {
+	    top: 10px;
+	    margin-left: 10px;
+	} 
+	.content, .content_dynamic {
+		width: 320px;
+	}
+	 .content_dynamic > div {
+		width: 320px;
+	}
+	
+	.controlsContainer {
+/*		margin: 30px 0 0 57px;
+		padding: 30px 40px;*/
+    	width: 70%;
+	}
+	.content_dynamic > div { 
+		height: 780px;
+	}
+	#content_dynamic_2 > div {
+		height: 810px !important;
+	}
+	/*Static IDs NO TABLE CHARTS*/
+	#static_Landline_VoIP_Subscriptions_2013_Pie_Chart, 
+	#static_Landline_Total_Income_Combo_Chart, 
+	#static_General_Labor_Force_Telecommunications_Line_Chart, 
+	#static_General_Telecommunications_PIB_2010_2013_Column_Chart, 
+	#static_General_Telecommunications_Income_2011_2013_Combo_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_2011_2013_Stacked_Column_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_Line_Chart, 
+	#static_Internet_Access_Monthly_Average_Data_Traffic_Per_Subscription_2013_Column_Chart, 
+	#static_Internet_Access_Total_Income_Internet_Service_Column_Chart, 
+	#static_Internet_Access_Proportion_Relative_Income_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Persons_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Houses_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_Column_Chart, 
+	#static_Internet_Access_Proportions_Service_Access_Internet_Mobile_Payment_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_100_Persons_2010_2013_Column_Chart, 
+	#static_Internet_Access_Monthly_Income_Subscription_Service_Access_Internet_Column_Chart, 
+	#static_Internet_Access_Total_Traffic_Data_Technology_2013_Combo_Chart, 
+	#static_Internet_Access_Relative_Participation_Traffic_Data_Access_Technology_2013_Column_Stacked_Chart, 
+	#static_Internet_Access_Traffic_Monthly_Average_Data_Subscription_Column_Chart,
+	#static_TV_Subscriptions_Proportion_Subscription_Service_Television_Paid_Technlogy_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Subscriptions_Service_Television_Paid_Subscription_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Houses_Access_Television_Subscription_2010_2013_Column_Chart,
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart, 
+	#static_International_CostaRican_Mobile_Subscriptions_Bar_Chart, 
+	#static_International_Internet_Access_100_Bar_Chart, 
+	#static_International_LandLine_100_Bar_Chart, 
+	#static_International_MobileInternet_100_Bar_Chart, 
+	#static_International_TotalIncome_Telecommunications_PIB_100_Bar_Chart, 
+	#static_International_Percent_Subscriptions_Mobile_Postpaid_Prepaid_Stacked_Bar_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Simetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Corporative_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_Corporative_Line_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Mobile_Postpaid_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Big_Companies_Line_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Companies_Column_Chart,
+	#static_Mobile_Subscriptions_per_100_Column_Chart,
+	#static_Mobile_Subscriptions_per_Operator_3D_Pie_Chart,
+	#static_Mobile_Traffic_Voice_per_Subscriptions_Column_Chart,
+	#static_Mobile_Entry_Total_Mobile_Service_Line_Chart,
+	#static_Mobile_Entry_Associated_Mobile_Service_per_Component_Stacked_Column_Chart,
+	#static_Mobile_Entry_Payment_Method_Line_Chart,
+	#static_Mobile_Entry_per_Subscription_Mobile_Service_Column_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Operator_2013_Pie_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Service_Benefit_2013_Column_Chart,
+	#static_Leasing_Lines_Total_Income_Connection_Leasing_Lines_2010_2013_Column_Chart,
+	#static_Leasing_Lines_Income_Proportion_Connection_Service_Leasing_Lines_2013_Column_Chart {
+		width: 300px;
+		margin-left: 15px;
+		top: 10px;
+	}
+	/*Static IDs TABLE CHARTS*/
+	#static_General_CostaRican_Telecommunications_Table_Chart, 
+	#static_TV_Subscriptions_Service_TV_Paid_Technology_Access_Table_Chart  {
+		width: 318px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart {
+		width: 375px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	.content > p, .content_dynamic > p {
+		margin: 0 20px 0 20px;
+	}
+	.orangeTextLandline > span, .blueTextGeneral > span, .greenPinkText > span, .pinkTextInternetAccess > span, 
+	.turquoiseTextPricesAndRates > span, .greenTVSubscriptions > span, .purpleTextMobile > span, .purpleTextLeasingLines > span {
+	    font: 8px/10px Tahoma, Geneva, sans-serif !important;
+	}
+	.orangeTextLandline, .blueTextGeneral, .pinkTextInternetAccess, .greenPinkTextInternational, .greenPinkText, 
+	.turquoiseTextPricesAndRates, .greenTVSubscriptions, .purpleTextMobile, .purpleTextLeasingLines {
+		height: 50px !important;
+		font: 10px/12px Tahoma, Geneva, sans-serif !important;
+	}
+	.hide {
+		display: none;
+	}
+	.footnoteBottomCharts {
+		margin-top: 10px !important;
+	}
+	.tablePBottom {
+		margin: 35px !important;
+	}
+	.mobileMarginTop {
+		margin-top: 20px;
+	}
+} 
+/*Samsung S3*/
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+
+/*Dynamic IDs*/
+	#dynamic_Landline_Active_Available_Lines_Combo_Chart, 
+	#dynamic_Landline_Traffic_Combo_Chart, #dynamic_Landline_VoIP_Line_Chart, 
+	#dynamic_Landline_Income_VoIP_2011_2013_Combo_Chart, 
+	#dynamic_Landline_Traffic_VoIP_2010_2013_Combo_Chart, 
+	#dynamic_International_Average_Per_Capita_Line_Chart,
+	#dynamic_Mobile_Active_Subscriptions_Mobile_Services_Combo_Chart,
+	#dynamic_Mobile_Traffic_Mobile_Voice_Combo_Chart,
+	#dynamic_Prices_And_Rates_Asimetric_Internet_Rates_Column_Chart,
+	#dynamic_Leasing_Lines_Connections_Leasing_Lines_2010_2013_Stacked_Column_Chart {
+	    top: 10px;
+	    margin-left: 10px;
+	} 
+	.content, .content_dynamic {
+		width: 320px;
+	}
+	 .content_dynamic > div {
+		width: 320px;
+	}
+	
+	.controlsContainer {
+/*		margin: 30px 0 0 57px;
+		padding: 30px 40px;*/
+    	width: 70%;
+	}
+	.content_dynamic > div { 
+		height: 780px;
+	}
+	#content_dynamic_2 > div {
+		height: 810px !important;
+	}
+	/*Static IDs NO TABLE CHARTS*/
+	#static_Landline_VoIP_Subscriptions_2013_Pie_Chart, 
+	#static_Landline_Total_Income_Combo_Chart, 
+	#static_General_Labor_Force_Telecommunications_Line_Chart, 
+	#static_General_Telecommunications_PIB_2010_2013_Column_Chart, 
+	#static_General_Telecommunications_Income_2011_2013_Combo_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_2011_2013_Stacked_Column_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_Line_Chart, 
+	#static_Internet_Access_Monthly_Average_Data_Traffic_Per_Subscription_2013_Column_Chart, 
+	#static_Internet_Access_Total_Income_Internet_Service_Column_Chart, 
+	#static_Internet_Access_Proportion_Relative_Income_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Persons_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Houses_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_Column_Chart, 
+	#static_Internet_Access_Proportions_Service_Access_Internet_Mobile_Payment_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_100_Persons_2010_2013_Column_Chart, 
+	#static_Internet_Access_Monthly_Income_Subscription_Service_Access_Internet_Column_Chart, 
+	#static_Internet_Access_Total_Traffic_Data_Technology_2013_Combo_Chart, 
+	#static_Internet_Access_Relative_Participation_Traffic_Data_Access_Technology_2013_Column_Stacked_Chart, 
+	#static_Internet_Access_Traffic_Monthly_Average_Data_Subscription_Column_Chart,
+	#static_TV_Subscriptions_Proportion_Subscription_Service_Television_Paid_Technlogy_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Subscriptions_Service_Television_Paid_Subscription_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Houses_Access_Television_Subscription_2010_2013_Column_Chart,
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart, 
+	#static_International_CostaRican_Mobile_Subscriptions_Bar_Chart, 
+	#static_International_Internet_Access_100_Bar_Chart, 
+	#static_International_LandLine_100_Bar_Chart, 
+	#static_International_MobileInternet_100_Bar_Chart, 
+	#static_International_TotalIncome_Telecommunications_PIB_100_Bar_Chart, 
+	#static_International_Percent_Subscriptions_Mobile_Postpaid_Prepaid_Stacked_Bar_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Simetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Corporative_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_Corporative_Line_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Mobile_Postpaid_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Big_Companies_Line_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Companies_Column_Chart,
+	#static_Mobile_Subscriptions_per_100_Column_Chart,
+	#static_Mobile_Subscriptions_per_Operator_3D_Pie_Chart,
+	#static_Mobile_Traffic_Voice_per_Subscriptions_Column_Chart,
+	#static_Mobile_Entry_Total_Mobile_Service_Line_Chart,
+	#static_Mobile_Entry_Associated_Mobile_Service_per_Component_Stacked_Column_Chart,
+	#static_Mobile_Entry_Payment_Method_Line_Chart,
+	#static_Mobile_Entry_per_Subscription_Mobile_Service_Column_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Operator_2013_Pie_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Service_Benefit_2013_Column_Chart,
+	#static_Leasing_Lines_Total_Income_Connection_Leasing_Lines_2010_2013_Column_Chart,
+	#static_Leasing_Lines_Income_Proportion_Connection_Service_Leasing_Lines_2013_Column_Chart {
+		width: 300px;
+		margin-left: 15px;
+		top: 10px;
+	}
+	/*Static IDs TABLE CHARTS*/
+	#static_General_CostaRican_Telecommunications_Table_Chart, 
+	#static_TV_Subscriptions_Service_TV_Paid_Technology_Access_Table_Chart  {
+		width: 318px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart {
+		width: 375px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	.content > p, .content_dynamic > p {
+		margin: 0 20px 0 20px;
+	}
+	.orangeTextLandline > span, .blueTextGeneral > span, .greenPinkText > span, .pinkTextInternetAccess > span, 
+	.turquoiseTextPricesAndRates > span, .greenTVSubscriptions > span, .purpleTextMobile > span, .purpleTextLeasingLines > span {
+	    font: 8px/10px Tahoma, Geneva, sans-serif !important;
+	}
+	.orangeTextLandline, .blueTextGeneral, .pinkTextInternetAccess, .greenPinkTextInternational, .greenPinkText, 
+	.turquoiseTextPricesAndRates, .greenTVSubscriptions, .purpleTextMobile, .purpleTextLeasingLines {
+		height: 50px !important;
+		font: 10px/12px Tahoma, Geneva, sans-serif !important;
+	}
+	.hide {
+		display: none;
+	}
+	.footnoteBottomCharts {
+		margin-top: 10px !important;
+	}
+	.tablePBottom {
+		margin: 35px !important;
+	}
+	.mobileMarginTop {
+		margin-top: 20px;
+	}
+} 
+
+/*Samsung S4*/ 
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+/*Dynamic IDs*/
+	#dynamic_Landline_Active_Available_Lines_Combo_Chart, 
+	#dynamic_Landline_Traffic_Combo_Chart, #dynamic_Landline_VoIP_Line_Chart, 
+	#dynamic_Landline_Income_VoIP_2011_2013_Combo_Chart, 
+	#dynamic_Landline_Traffic_VoIP_2010_2013_Combo_Chart, 
+	#dynamic_International_Average_Per_Capita_Line_Chart,
+	#dynamic_Mobile_Active_Subscriptions_Mobile_Services_Combo_Chart,
+	#dynamic_Mobile_Traffic_Mobile_Voice_Combo_Chart,
+	#dynamic_Prices_And_Rates_Asimetric_Internet_Rates_Column_Chart,
+	#dynamic_Leasing_Lines_Connections_Leasing_Lines_2010_2013_Stacked_Column_Chart {
+	    top: 10px;
+	    margin-left: 10px;
+	} 
+	.content, .content_dynamic {
+		width: 320px;
+	}
+	 .content_dynamic > div {
+		width: 320px;
+	}
+	
+	.controlsContainer {
+/*		margin: 30px 0 0 57px;
+		padding: 30px 40px;*/
+    	width: 70%;
+	}
+	.content_dynamic > div { 
+		height: 780px;
+	}
+	#content_dynamic_2 > div {
+		height: 810px !important;
+	}
+	/*Static IDs NO TABLE CHARTS*/
+	#static_Landline_VoIP_Subscriptions_2013_Pie_Chart, 
+	#static_Landline_Total_Income_Combo_Chart, 
+	#static_General_Labor_Force_Telecommunications_Line_Chart, 
+	#static_General_Telecommunications_PIB_2010_2013_Column_Chart, 
+	#static_General_Telecommunications_Income_2011_2013_Combo_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_2011_2013_Stacked_Column_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_Line_Chart, 
+	#static_Internet_Access_Monthly_Average_Data_Traffic_Per_Subscription_2013_Column_Chart, 
+	#static_Internet_Access_Total_Income_Internet_Service_Column_Chart, 
+	#static_Internet_Access_Proportion_Relative_Income_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Persons_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Houses_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_Column_Chart, 
+	#static_Internet_Access_Proportions_Service_Access_Internet_Mobile_Payment_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_100_Persons_2010_2013_Column_Chart, 
+	#static_Internet_Access_Monthly_Income_Subscription_Service_Access_Internet_Column_Chart, 
+	#static_Internet_Access_Total_Traffic_Data_Technology_2013_Combo_Chart, 
+	#static_Internet_Access_Relative_Participation_Traffic_Data_Access_Technology_2013_Column_Stacked_Chart, 
+	#static_Internet_Access_Traffic_Monthly_Average_Data_Subscription_Column_Chart,
+	#static_TV_Subscriptions_Proportion_Subscription_Service_Television_Paid_Technlogy_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Subscriptions_Service_Television_Paid_Subscription_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Houses_Access_Television_Subscription_2010_2013_Column_Chart,
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart, 
+	#static_International_CostaRican_Mobile_Subscriptions_Bar_Chart, 
+	#static_International_Internet_Access_100_Bar_Chart, 
+	#static_International_LandLine_100_Bar_Chart, 
+	#static_International_MobileInternet_100_Bar_Chart, 
+	#static_International_TotalIncome_Telecommunications_PIB_100_Bar_Chart, 
+	#static_International_Percent_Subscriptions_Mobile_Postpaid_Prepaid_Stacked_Bar_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Simetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Corporative_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_Corporative_Line_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Mobile_Postpaid_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Big_Companies_Line_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Companies_Column_Chart,
+	#static_Mobile_Subscriptions_per_100_Column_Chart,
+	#static_Mobile_Subscriptions_per_Operator_3D_Pie_Chart,
+	#static_Mobile_Traffic_Voice_per_Subscriptions_Column_Chart,
+	#static_Mobile_Entry_Total_Mobile_Service_Line_Chart,
+	#static_Mobile_Entry_Associated_Mobile_Service_per_Component_Stacked_Column_Chart,
+	#static_Mobile_Entry_Payment_Method_Line_Chart,
+	#static_Mobile_Entry_per_Subscription_Mobile_Service_Column_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Operator_2013_Pie_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Service_Benefit_2013_Column_Chart,
+	#static_Leasing_Lines_Total_Income_Connection_Leasing_Lines_2010_2013_Column_Chart,
+	#static_Leasing_Lines_Income_Proportion_Connection_Service_Leasing_Lines_2013_Column_Chart {
+		width: 300px;
+		margin-left: 15px;
+		top: 10px;
+	}
+	/*Static IDs TABLE CHARTS*/
+	#static_General_CostaRican_Telecommunications_Table_Chart, 
+	#static_TV_Subscriptions_Service_TV_Paid_Technology_Access_Table_Chart  {
+		width: 318px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart {
+		width: 375px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	.content > p, .content_dynamic > p {
+		margin: 0 20px 0 20px;
+	}
+	.orangeTextLandline > span, .blueTextGeneral > span, .greenPinkText > span, .pinkTextInternetAccess > span, 
+	.turquoiseTextPricesAndRates > span, .greenTVSubscriptions > span, .purpleTextMobile > span, .purpleTextLeasingLines > span {
+	    font: 8px/10px Tahoma, Geneva, sans-serif !important;
+	}
+	.orangeTextLandline, .blueTextGeneral, .pinkTextInternetAccess, .greenPinkTextInternational, .greenPinkText, 
+	.turquoiseTextPricesAndRates, .greenTVSubscriptions, .purpleTextMobile, .purpleTextLeasingLines {
+		height: 50px !important;
+		font: 10px/12px Tahoma, Geneva, sans-serif !important;
+	}
+	.hide {
+		display: none;
+	}
+	.footnoteBottomCharts {
+		margin-top: 10px !important;
+	}
+	.tablePBottom {
+		margin: 35px !important;
+	}
+	.mobileMarginTop {
+		margin-top: 20px;
+	}
+}
+
+/*iPhone 5*/
+@media screen and (device-aspect-ratio: 40/71)  {
+	/*Dynamic IDs*/
+	#dynamic_Landline_Active_Available_Lines_Combo_Chart, 
+	#dynamic_Landline_Traffic_Combo_Chart, #dynamic_Landline_VoIP_Line_Chart, 
+	#dynamic_Landline_Income_VoIP_2011_2013_Combo_Chart, 
+	#dynamic_Landline_Traffic_VoIP_2010_2013_Combo_Chart, 
+	#dynamic_International_Average_Per_Capita_Line_Chart,
+	#dynamic_Mobile_Active_Subscriptions_Mobile_Services_Combo_Chart,
+	#dynamic_Mobile_Traffic_Mobile_Voice_Combo_Chart,
+	#dynamic_Prices_And_Rates_Asimetric_Internet_Rates_Column_Chart,
+	#dynamic_Leasing_Lines_Connections_Leasing_Lines_2010_2013_Stacked_Column_Chart {
+	    top: 10px;
+	    margin-left: 10px;
+	} 
+	.content, .content_dynamic {
+		width: 320px;
+	}
+	 .content_dynamic > div {
+		width: 320px;
+	}
+	
+	.controlsContainer {
+/*		margin: 30px 0 0 57px;
+		padding: 30px 40px;*/
+    	width: 70%;
+	}
+	.content_dynamic > div { 
+		height: 780px;
+	}
+	#content_dynamic_2 > div {
+		height: 810px !important;
+	}
+	/*Static IDs NO TABLE CHARTS*/
+	#static_Landline_VoIP_Subscriptions_2013_Pie_Chart, 
+	#static_Landline_Total_Income_Combo_Chart, 
+	#static_General_Labor_Force_Telecommunications_Line_Chart, 
+	#static_General_Telecommunications_PIB_2010_2013_Column_Chart, 
+	#static_General_Telecommunications_Income_2011_2013_Combo_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_2011_2013_Stacked_Column_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_Line_Chart, 
+	#static_Internet_Access_Monthly_Average_Data_Traffic_Per_Subscription_2013_Column_Chart, 
+	#static_Internet_Access_Total_Income_Internet_Service_Column_Chart, 
+	#static_Internet_Access_Proportion_Relative_Income_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Persons_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Houses_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_Column_Chart, 
+	#static_Internet_Access_Proportions_Service_Access_Internet_Mobile_Payment_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_100_Persons_2010_2013_Column_Chart, 
+	#static_Internet_Access_Monthly_Income_Subscription_Service_Access_Internet_Column_Chart, 
+	#static_Internet_Access_Total_Traffic_Data_Technology_2013_Combo_Chart, 
+	#static_Internet_Access_Relative_Participation_Traffic_Data_Access_Technology_2013_Column_Stacked_Chart, 
+	#static_Internet_Access_Traffic_Monthly_Average_Data_Subscription_Column_Chart,
+	#static_TV_Subscriptions_Proportion_Subscription_Service_Television_Paid_Technlogy_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Subscriptions_Service_Television_Paid_Subscription_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Houses_Access_Television_Subscription_2010_2013_Column_Chart,
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart, 
+	#static_International_CostaRican_Mobile_Subscriptions_Bar_Chart, 
+	#static_International_Internet_Access_100_Bar_Chart, 
+	#static_International_LandLine_100_Bar_Chart, 
+	#static_International_MobileInternet_100_Bar_Chart, 
+	#static_International_TotalIncome_Telecommunications_PIB_100_Bar_Chart, 
+	#static_International_Percent_Subscriptions_Mobile_Postpaid_Prepaid_Stacked_Bar_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Simetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Corporative_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_Corporative_Line_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Mobile_Postpaid_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Big_Companies_Line_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Companies_Column_Chart,
+	#static_Mobile_Subscriptions_per_100_Column_Chart,
+	#static_Mobile_Subscriptions_per_Operator_3D_Pie_Chart,
+	#static_Mobile_Traffic_Voice_per_Subscriptions_Column_Chart,
+	#static_Mobile_Entry_Total_Mobile_Service_Line_Chart,
+	#static_Mobile_Entry_Associated_Mobile_Service_per_Component_Stacked_Column_Chart,
+	#static_Mobile_Entry_Payment_Method_Line_Chart,
+	#static_Mobile_Entry_per_Subscription_Mobile_Service_Column_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Operator_2013_Pie_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Service_Benefit_2013_Column_Chart,
+	#static_Leasing_Lines_Total_Income_Connection_Leasing_Lines_2010_2013_Column_Chart,
+	#static_Leasing_Lines_Income_Proportion_Connection_Service_Leasing_Lines_2013_Column_Chart {
+		width: 300px;
+		margin-left: 15px;
+		top: 10px;
+	}
+	/*Static IDs TABLE CHARTS*/
+	#static_General_CostaRican_Telecommunications_Table_Chart, 
+	#static_TV_Subscriptions_Service_TV_Paid_Technology_Access_Table_Chart  {
+		width: 318px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart {
+		width: 375px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	.content > p, .content_dynamic > p {
+		margin: 0 20px 0 20px;
+	}
+	.orangeTextLandline > span, .blueTextGeneral > span, .greenPinkText > span, .pinkTextInternetAccess > span, 
+	.turquoiseTextPricesAndRates > span, .greenTVSubscriptions > span, .purpleTextMobile > span, .purpleTextLeasingLines > span {
+	    font: 8px/10px Tahoma, Geneva, sans-serif !important;
+	}
+	.orangeTextLandline, .blueTextGeneral, .pinkTextInternetAccess, .greenPinkTextInternational, .greenPinkText, 
+	.turquoiseTextPricesAndRates, .greenTVSubscriptions, .purpleTextMobile, .purpleTextLeasingLines {
+		height: 50px !important;
+		font: 10px/12px Tahoma, Geneva, sans-serif !important;
+	}
+	.hide {
+		display: none;
+	}
+	.footnoteBottomCharts {
+		margin-top: 10px !important;
+	}
+	.tablePBottom {
+		margin: 35px !important;
+	}
+	.mobileMarginTop {
+		margin-top: 20px;
+	}
+}
+
+/*Iphone 4*/
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+	/*Dynamic IDs*/
+	#dynamic_Landline_Active_Available_Lines_Combo_Chart, 
+	#dynamic_Landline_Traffic_Combo_Chart, #dynamic_Landline_VoIP_Line_Chart, 
+	#dynamic_Landline_Income_VoIP_2011_2013_Combo_Chart, 
+	#dynamic_Landline_Traffic_VoIP_2010_2013_Combo_Chart, 
+	#dynamic_International_Average_Per_Capita_Line_Chart,
+	#dynamic_Mobile_Active_Subscriptions_Mobile_Services_Combo_Chart,
+	#dynamic_Mobile_Traffic_Mobile_Voice_Combo_Chart,
+	#dynamic_Prices_And_Rates_Asimetric_Internet_Rates_Column_Chart,
+	#dynamic_Leasing_Lines_Connections_Leasing_Lines_2010_2013_Stacked_Column_Chart {
+	    top: 10px;
+	    margin-left: 10px;
+	} 
+	.content, .content_dynamic {
+		width: 320px;
+	}
+	 .content_dynamic > div {
+		width: 320px;
+	}
+	
+	.controlsContainer {
+/*		margin: 30px 0 0 57px;
+		padding: 30px 40px;*/
+    	width: 70%;
+	}
+	.content_dynamic > div { 
+		height: 780px;
+	}
+	#content_dynamic_2 > div {
+		height: 830px !important;
+	}
+	/*Static IDs NO TABLE CHARTS*/
+	#static_Landline_VoIP_Subscriptions_2013_Pie_Chart, 
+	#static_Landline_Total_Income_Combo_Chart, 
+	#static_General_Labor_Force_Telecommunications_Line_Chart, 
+	#static_General_Telecommunications_PIB_2010_2013_Column_Chart, 
+	#static_General_Telecommunications_Income_2011_2013_Combo_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_2011_2013_Stacked_Column_Chart, 
+	#static_General_Telecommunications_Total_Income_Service_Line_Chart, 
+	#static_Internet_Access_Monthly_Average_Data_Traffic_Per_Subscription_2013_Column_Chart, 
+	#static_Internet_Access_Total_Income_Internet_Service_Column_Chart, 
+	#static_Internet_Access_Proportion_Relative_Income_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Persons_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_100_Houses_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_Column_Chart, 
+	#static_Internet_Access_Proportions_Service_Access_Internet_Mobile_Payment_Stacked_Column_Chart, 
+	#static_Internet_Access_Subscriptions_Service_Access_Internet_Mobile_100_Persons_2010_2013_Column_Chart, 
+	#static_Internet_Access_Monthly_Income_Subscription_Service_Access_Internet_Column_Chart, 
+	#static_Internet_Access_Total_Traffic_Data_Technology_2013_Combo_Chart, 
+	#static_Internet_Access_Relative_Participation_Traffic_Data_Access_Technology_2013_Column_Stacked_Chart, 
+	#static_Internet_Access_Traffic_Monthly_Average_Data_Subscription_Column_Chart,
+	#static_TV_Subscriptions_Proportion_Subscription_Service_Television_Paid_Technlogy_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Subscriptions_Service_Television_Paid_Subscription_3D_Pie_Chart,
+	#static_TV_Subscriptions_Proportion_Houses_Access_Television_Subscription_2010_2013_Column_Chart,
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart, 
+	#static_International_CostaRican_Mobile_Subscriptions_Bar_Chart, 
+	#static_International_Internet_Access_100_Bar_Chart, 
+	#static_International_LandLine_100_Bar_Chart, 
+	#static_International_MobileInternet_100_Bar_Chart, 
+	#static_International_TotalIncome_Telecommunications_PIB_100_Bar_Chart, 
+	#static_International_Percent_Subscriptions_Mobile_Postpaid_Prepaid_Stacked_Bar_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Simetric_Sector_Residential_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Asimetric_Sector_Corporative_2013_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_Corporative_Line_Chart,
+	#static_Prices_And_Rates_Rate_Service_Internet_Mobile_Postpaid_Intervals_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Big_Companies_Line_Chart,
+	#static_Prices_And_Rates_Internet_Services_For_Companies_Column_Chart,
+	#static_Mobile_Subscriptions_per_100_Column_Chart,
+	#static_Mobile_Subscriptions_per_Operator_3D_Pie_Chart,
+	#static_Mobile_Traffic_Voice_per_Subscriptions_Column_Chart,
+	#static_Mobile_Entry_Total_Mobile_Service_Line_Chart,
+	#static_Mobile_Entry_Associated_Mobile_Service_per_Component_Stacked_Column_Chart,
+	#static_Mobile_Entry_Payment_Method_Line_Chart,
+	#static_Mobile_Entry_per_Subscription_Mobile_Service_Column_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Operator_2013_Pie_Chart,
+	#static_Leasing_Lines_Distribution_Connection_Service_Benefit_2013_Column_Chart,
+	#static_Leasing_Lines_Total_Income_Connection_Leasing_Lines_2010_2013_Column_Chart,
+	#static_Leasing_Lines_Income_Proportion_Connection_Service_Leasing_Lines_2013_Column_Chart {
+		width: 300px;
+		margin-left: 15px;
+		top: 10px;
+	}
+	/*Static IDs TABLE CHARTS*/
+	#static_General_CostaRican_Telecommunications_Table_Chart, 
+	#static_TV_Subscriptions_Service_TV_Paid_Technology_Access_Table_Chart  {
+		width: 318px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	#static_Prices_And_Rates_Internet_Mobile_Services_Prepaid_Mode_Rates_Table_Chart,
+	#static_Prices_And_Rates_TV_Subscription_Service_Table_Chart,
+	#static_Prices_And_Rates_Internet_Services_Rates_For_Companies_Table_Chart {
+		width: 375px !important;
+		margin: 10px 0 0 1px;
+		top: 10px;
+	}
+	.content > p, .content_dynamic > p {
+		margin: 0 20px 0 20px;
+	}
+	.orangeTextLandline > span, .blueTextGeneral > span, .greenPinkText > span, .pinkTextInternetAccess > span, 
+	.turquoiseTextPricesAndRates > span, .greenTVSubscriptions > span, .purpleTextMobile > span, .purpleTextLeasingLines > span {
+	    font: 8px/10px Tahoma, Geneva, sans-serif !important;
+	}
+	.orangeTextLandline, .blueTextGeneral, .pinkTextInternetAccess, .greenPinkTextInternational, .greenPinkText, 
+	.turquoiseTextPricesAndRates, .greenTVSubscriptions, .purpleTextMobile, .purpleTextLeasingLines {
+		height: 50px !important;
+		font: 10px/12px Tahoma, Geneva, sans-serif !important;
+	}
+	.hide {
+		display: none;
+	}
+	.footnoteBottomCharts {
+		margin-top: 10px !important;
+	}
+	.tablePBottom {
+		margin: 35px !important;
+	}
+	.mobileMarginTop {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 830px) { 
+	#mainMenu ul ul:before {left: 23%!important;}
+	#mainMenu > ul ul {
+		visibility: hidden;
+		top: 45px!important;
+		z-index: 598;
+	}
+
+
+}
+
+@media (max-width: 767px) { 
+
+	#arrowPositionLeft {
+	    float: left;
+	    position: relative;
+	    bottom: 260px!important;
+	    left: 35px!important;
+	    display: block;
+	    width: 25px;
+	    height: 25px;
+	    background: url(../_images/mainCarousel/arrow_left.png) bottom;
+	    text-indent: -99999px;
+	}
+
+	#arrowPositionRight {
+	    position: relative;
+	    float: right;
+	    bottom: 260px!important;
+	    right: 35px!important;
+	    display: block;
+	    width: 25px;
+	    height: 25px;
+	    background: url(../_images/mainCarousel/arrow_right.png) bottom;
+	    text-indent: -99999px;
+	}
+}
+
+@media (max-width: 400px) { 
+
+	.content {
+	    width: 341px;
+	    margin: 40px auto;
+	    overflow: overlay;
+	    height: auto;
+	}
+
+	.controlsContainer {
+	    width: 100%;	    
+	}
+
+	.content_dynamic > div {
+	    height: 100%;
+	    width: 335px;
+	}
+
+	.overflow_hidden { overflow: overlay;}
+
+}

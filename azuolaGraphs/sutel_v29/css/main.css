@@ -1,0 +1,292 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*Dynamic Styles*/
+.content_dynamic
+{
+    width: 750px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.content_dynamic > div {
+    height: 480px;
+}
+.controlsContainer
+{
+    padding: 15px;
+    border: 1px #dedede solid;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    width: 117px;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Arial;
+    margin: 80px 0 0 0;
+}
+#controlsContainer .controlSection
+{
+    padding: 0px;
+    border-bottom: 1px dotted #dedede;
+    min-height: 0px;
+}
+#numberRangeFilterContainer > div > div {
+    width: 200px;
+}
+.chartOptions {
+    height: 30px;
+}
+.categoryFilter, #numberRangeFilterContainer {
+    margin: 10px 0 10px 0;
+}
+
+.controlSection:hover
+{
+    background-color: #f1f1f1;
+}
+
+h1
+{
+ color: #474949;
+}
+h2
+{
+    color: #474949;
+}
+/*mast navigation*/
+#menu_mast
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+#menu_mast li
+{
+    list-style: none;
+    float: left;
+    font-size: .98em;
+    padding-right: 10px;
+
+}
+#menu_mast li a
+{
+    text-decoration: none;
+    color: #7b3182;
+}
+#menu_mast li a:hover
+{
+    color: #c28bb7;
+}
+.categoryFilter ul
+{
+    margin: 0;
+}
+#chartRegion {
+    width: 740px;
+}
+
+/*Customize chart appearance*/
+.categoryFilter ul li
+{
+    list-style: none;
+    padding: 3px;
+    list-style-position: inside;
+    margin-left: -40px;
+    background-color: #f1f1f1;
+    border: 1px #c28bb7 solid;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.categoryFilter ul li div:first-of-type 
+{
+    background-color: #f1f1f1;
+    padding: 2px;
+    margin-right: 3px;
+    border-radius: 5PX;
+
+}
+
+.google-visualization-controls-label
+{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.google-visualization-controls-slider-thumb
+{
+background-color: #c28bb7;
+border-color: #7b3182;
+}
+.google-visualization-controls-slider-horizontal
+{
+    border-color: #dedede;
+}
+.google-visualization-controls-slider-handle
+{
+    background-color: #edc7de;
+    border-color: #7b3182;
+}
+.google-visualization-controls-rangefilter-thumblabel
+{
+    font-size: .8em;
+    color: #323232;
+}
+input
+{
+    width: 191px;
+    height: 20px;
+}       
+#exportToolbarContainer, .chartOptions {display: none;}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*Standar Styles*/
+.overflow_hidden {
+    overflow: hidden;
+}
+.float_left {
+    float: left;
+}
+.float_right {
+    float: right;
+}
+/*Custom Styles*/
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+.content {
+    width: 600px;
+    margin: 40px auto;
+    overflow: hidden;
+    height: auto;
+}
+.content > p, .content_dynamic > p, .hide > p {
+    text-align: left;
+    font: bold 14px/16px Tahoma, Geneva, sans-serif;
+    background-repeat: no-repeat;
+}
+.content > p > span, .content_dynamic > p > span, .hide > p > span {
+    font: 10px/12px Tahoma, Geneva, sans-serif;
+    display: block;
+}
+.orangeTextLandline {
+    color: #e6903b;
+    padding: 0 0 0 48px;
+    height: 45px;
+}
+.blueTextGeneral {
+    color: #1d76c1;
+    padding: 0 0 0 48px;
+    height: 45px;
+}
+.greenPinkTextInternational {
+    color: #176b64;
+    padding: 0 0 0 48px;
+    height: 45px;
+}
+.pinkTextInternetAccess {
+    color: #e64772;
+    padding: 0 0 0 48px;
+    height: 45px;
+}
+.turquoiseTextPricesAndRates {
+    color: #25aaae;
+    padding: 0 0 0 50px;
+    height: 45px;
+}
+.greenTextTVSubscriptions {
+    color: #70b835;
+    padding: 0 0 0 52px;
+    height: 45px;
+}
+.purpleTextMobile {
+    color: #8b509c;
+    padding: 0 0 0 52px;
+    height: 45px;
+}
+.purpleTextLeasingLines {
+    color: #4855a4;
+    padding: 0 0 0 52px;
+    height: 45px;
+}
+.orangeHeadset {
+    background-image: url('../images/icn_orange_headset.jpg');
+}
+.orangePhone {
+    background-image: url('../images/icn_orange_phone.jpg');
+}
+.orangeHeadsetPhone {
+    background-image: url('../images/icn_orange_headset_phone.jpg');
+    height: 40px !important;
+}
+.blueWorld {
+    background-image: url('../images/icn_blue_world.jpg');
+}
+.greenPinkWorld {
+    background-image: url('../images/icn_green_pink_world.jpg');
+}
+.greenPinkComputerPhone {
+    background-image: url('../images/icn_pink_computer_phone.jpg');
+}
+.turquoisePriceRate {
+    background-image: url('../images/icn_turquoise_price_rate.jpg');
+}
+.greenTVSubscriptions {
+    background-image: url('../images/icn_green_tv.jpg');
+}
+.purpleMobile {
+    background-image: url('../images/icn_purple_mobile.jpg');
+    height: 45px !important;
+}
+.purpleLeasingLines {
+    background-image: url('../images/icn_purple_cloud_lock.jpg');
+    height: 45px !important;
+}
+.footnoteBottomCharts {
+    font: 8px/10px Tahoma, Geneva, sans-serif !important;
+    color: #929393 !important;
+    padding-left: 0px !important;
+    height: auto !important;
+}
+
+#dynamic_Landline_Active_Available_Lines_Combo_Chart, 
+#dynamic_Landline_Traffic_Combo_Chart, 
+#dynamic_Landline_VoIP_Line_Chart, 
+#dynamic_Landline_Income_VoIP_2011_2013_Combo_Chart, 
+#dynamic_Landline_Traffic_VoIP_2010_2013_Combo_Chart, 
+#dynamic_International_Average_Per_Capita_Line_Chart,
+#dynamic_Prices_And_Rates_Asimetric_Internet_Rates_Column_Chart,
+#dynamic_Mobile_Active_Subscriptions_Mobile_Services_Combo_Chart,
+#dynamic_Mobile_Traffic_Mobile_Voice_Combo_Chart, 
+#dynamic_Leasing_Lines_Connections_Leasing_Lines_2010_2013_Stacked_Column_Chart {
+    top: -35px;
+    margin-top: 20px;
+}
+.largeTable {
+    width: 950px;
+}
+.largeTable_2 {
+    width: 925px;
+}
+.largeTable_3 {
+    width: 1155px;
+}
+.largeTable_4 {
+    width: 880px;
+}
+.largeTable_5 {
+    width: 865px;
+}
+.largeTable_6 {
+    width: 935px;
+}
+.tablePBottom {
+    margin-top: 25px;
+}
+.tablePTop {
+    height: 60px;
+}
